@@ -233,16 +233,28 @@ Harness 会自动：
 
 ### 官方桌面版（内测中）
 
-> ⚠️ 官方还没正式官宣，目前是 nightly 测试版
+> ✅ **已确认是官方的！** 下载域名是 `download.deepseek.com`
 > 
-> ✅ 已确认是官方签名，安全可信
+> ⚠️ 版本：`0.1.7-rc.1.20260924.1`，2026-09-24 发布
 
-| 平台 | 状态 | 下载地址 | 说明 |
-|------|------|---------|------|
-| macOS (Apple Silicon) | ✅ 有 | 官方 Telegram/社群分发 | 官方签名，已公证 |
-| macOS (Intel) | ✅ 有 | 官方 Telegram/社群分发 | 官方签名 |
-| Windows | ✅ 有 | 社区流传安装包 | 可正常使用 |
-| Linux | ❌ 暂不支持 | - | 等官方后续更新 |
+| 平台 | 下载链接 |
+|------|---------|
+| **Windows (x64)** | https://download.deepseek.com/dsh-desk/bin/win-x64/deepseek-harness-0.1.7-rc.1.20260924.1-win-x64.exe |
+| **macOS (M 系列)** | https://download.deepseek.com/dsh-desk/bin/mac-arm64/deepseek-harness-0.1.7-rc.1.20260924.1-mac-arm64.dmg |
+| macOS (Intel) | 暂未找到，等官方更新 |
+| Linux | ❌ 暂不支持 |
+
+### 安装说明
+
+**Windows：**
+1. 下载 `.exe` 安装包
+2. 双击安装，一路下一步
+3. 如出现 SmartScreen 提示 → 更多信息 → 仍要运行
+
+**macOS：**
+1. 下载 `.dmg` 文件
+2. 打开后把 DeepSeek Harness 拖进 Applications
+3. 如打不开 → 右键打开 → 仍要打开
 
 **官方仓库**：https://github.com/deepseek-ai/deepseek-harness
 
