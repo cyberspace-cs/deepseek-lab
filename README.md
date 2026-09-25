@@ -234,15 +234,34 @@ Harness 会自动：
 ### 官方桌面版（内测中）
 
 > ⚠️ 官方还没正式官宣，目前是 nightly 测试版
+> 
+> ✅ 已确认是官方签名，安全可信
 
-| 平台 | 状态 | 说明 |
-|------|------|------|
-| macOS (Apple Silicon) | ✅ 有 | 官方签名，已公证 |
-| macOS (Intel) | ✅ 有 | 官方签名 |
-| Windows | ✅ 有 | 社区流传 |
-| Linux | ❌ 暂不支持 | 等官方后续更新 |
+| 平台 | 状态 | 下载地址 | 说明 |
+|------|------|---------|------|
+| macOS (Apple Silicon) | ✅ 有 | 官方 Telegram/社群分发 | 官方签名，已公证 |
+| macOS (Intel) | ✅ 有 | 官方 Telegram/社群分发 | 官方签名 |
+| Windows | ✅ 有 | 社区流传安装包 | 可正常使用 |
+| Linux | ❌ 暂不支持 | - | 等官方后续更新 |
 
 **官方仓库**：https://github.com/deepseek-ai/deepseek-harness
+
+---
+
+## 📂 本仓库包含的内容
+
+```
+deepseek-lab/
+├── README.md                 # 本文件，详细介绍
+├── examples/
+│   └── quick-start.md        # 5 分钟快速上手
+└── upstream/
+    └── deepseek-harness/     # 官方源码（浅克隆）
+        ├── apps/             # 应用（CLI、Web UI）
+        ├── packages/         # 核心包
+        ├── plugins/          # 官方插件
+        └── docs/             # 官方文档
+```
 
 ---
 
